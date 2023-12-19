@@ -26,7 +26,7 @@ export default function Examples()
   }
 
     return (<Section id="examples" title='Examples'>  
-       <Tabs buttons = {<><TabButton isSelected={SelectedTopic === 'components'}  onSelect={() => handleSelect('components')}>
+       <Tabs ButtonsContainer='menu' buttons = {<><TabButton isSelected={SelectedTopic === 'components'}  onSelect={() => handleSelect('components')}>
           Components
           </TabButton>
           <TabButton isSelected={SelectedTopic === 'jsx'} onSelect={() => handleSelect('jsx')}>
